@@ -2,11 +2,11 @@
 
 /* Variáveis */
 :root {
-    --primary-color: #026773;
-    --secondary-color: #3CA6A6;
-    --text-color: #024959;
+    --primary-color: #a7149f;
+    --secondary-color: #e666db;
+    --text-color: #a01f79ef;
     --background-color: #F2E3D5;
-    --button-hover: #012E40;
+    --button-hover: #290140;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
 }
@@ -37,6 +37,7 @@ p {
 img {
     max-width: 90%;
 }
+
 /* Cabeçalho */
 header {
     background: var(--primary-color);
@@ -50,7 +51,8 @@ header h1 {
     margin-bottom: 10px;
 }
 
-
+nav ul {
+    list-style: none;
     padding: 10px;
 }
 
@@ -132,7 +134,7 @@ iframe{
 /* Responsividade */
 @media (max-width: 768px) {
     .conteudo {
-        width: 90%;
+        width: 40%;
     }
 
     nav ul {
@@ -148,5 +150,4 @@ iframe{
     .cta-button {
         width: 100%;
     }
-}nav ul {
-    list-style: none;
+}
